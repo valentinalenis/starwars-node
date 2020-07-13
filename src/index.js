@@ -9,7 +9,7 @@ http.createServer((request, response)=>{
   const { url } = request;
   if(url ==="/"){
 
-    response.write("Hello, world!");
+    response.write("Bienvenidos, la rutas disponibles\n -nombrePelicula\n -actores\n -planetas\n -naveGrande");
   
   }else if(url ==="/nombrePelicula"){
 
